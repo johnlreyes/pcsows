@@ -1,0 +1,51 @@
+<project    xmlns="http://maven.apache.org/POM/4.0.0" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+	        http://maven.apache.org/maven-v4_0_0.xsd">
+	        
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>liq.pcsows</groupId>
+	<artifactId>pscows</artifactId>
+	<packaging>war</packaging>
+	<version>0.1-SNAPSHOT</version>
+	<name>PCSO Web Service</name>
+	<url>https://github.com/johnlreyes/pcsows</url>
+	
+	<properties>
+	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	    <version.java>1.7</version.java>
+	    <version.spring-webmvc>3.2.0.RELEASE</version.spring-webmvc>
+	    <version.jackson-mapper-asl>1.9.12</version.jackson-mapper-asl>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${version.spring-webmvc}</version>
+		</dependency>
+		<dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>${version.jackson-mapper-asl}</version>
+        </dependency>
+</dependency>
+
+	</dependencies>
+	
+	<build>
+		<finalName>{project.artifactId}</finalName>
+		<plugins>
+		    <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>${version.java}</source>
+					<target>${version.java}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+</project>
