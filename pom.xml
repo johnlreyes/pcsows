@@ -13,7 +13,7 @@
 	
 	<properties>
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	    <version.java>1.7</version.java>
+	    <version.java>1.6</version.java>
 	    <version.spring-webmvc>3.2.0.RELEASE</version.spring-webmvc>
 	    <version.jackson-mapper-asl>1.9.12</version.jackson-mapper-asl>
 	    <version.servlet-api>2.5</version.servlet-api>
