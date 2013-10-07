@@ -41,8 +41,6 @@
             <artifactId>jackson-mapper-asl</artifactId>
             <version>${version.jackson-mapper-asl}</version>
         </dependency>
-</dependency>
-
 	</dependencies>
 	
 	<build>
