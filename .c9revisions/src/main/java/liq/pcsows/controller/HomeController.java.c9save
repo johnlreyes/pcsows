@@ -1,0 +1,2 @@
+{"ts":1381524240208,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1381524296350,"patch":[[{"diffs":[[1,"package liq.pcsows.controller;\n\nimport org.springframework.stereotype.Controller;\nimport org.springframework.web.bind.annotation.RequestMapping;\n\n@Controller\npublic class HomeController {\n    \n    @RequestMapping(\"home\")\n    public String home() {\n        return \"home\";\n    }\n}"]],"start1":0,"start2":0,"length1":0,"length2":278}]],"length":278,"saved":false}
